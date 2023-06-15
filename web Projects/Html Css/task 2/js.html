@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>JavaScript to Read information from the form</title>
+		<script>
+		function calculate(){
+			var s=document.getElementById("t1").value;
+			var n1=parseInt(s);
+			var s=document.getElementById("t2").value;
+			var n2=parseInt(s);
+			var opr=document.getElementById("t3").value;
+			if(opr=="+")
+				document.write("N1+N2="+(n1+n2));
+			else if(opr=="-")
+				document.write("N1-N2="+(n1-n2));
+			else if(opr=="*")
+				document.write("N1*N2="+(n1*n2));
+			else if(opr=="/")
+				document.write("N1/N2="+(n1/n2));
+			else if(opr=="%")
+				document.write("N1%N2="+(n1%n2));
+			else
+				document.write("Invalid Operator");
+			}
+		</script>
+	</head>
+<body>
+<h2 align=center>Reading Inforamtion from form</h2>
+<hr>
+<form align=center>
+	<b>Enter the 1st Number : </b>
+	<input type=text id="t1">
+	<br><br>
+	<b>Enter the 2nd Number : </b>
+	<input type=text id="t2">
+	<br><br>
+	<b>Enter operator</b>
+	<input type=text id="t3">
+	<br><br>
+	<input type=button value="Calculate" onClick="calculate()">
+	&nbsp;&nbsp;
+	<input type=reset value="Clear">
+</form>
+</body>
+</html>

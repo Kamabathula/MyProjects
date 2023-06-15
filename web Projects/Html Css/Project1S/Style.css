@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: antiquewhite;
+    min-height: 100vb;
+    border: 10px solid black;   
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.resume{
+    text-align: center;
+}
+.resume h{
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.top{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: navy;
+    text-transform:uppercase;
+}
+.top h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+.img_container{
+    border-radius: 40%;
+    overflow: hidden;
+}
+.img_container,img{
+    width: 300px;
+    height: 320px;
+}
+.edu{
+    margin-top: 50px;
+
+}
+.edu p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bio h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.bio ul{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.projects h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.projects ul{
+    margin-left: 40px;
+    line-height: 30px;
+}
+.activites{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.activites ul{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.ach h2{
+    margin-bottom: 20px;
+}
+.ach ul{
+    margin-left: 40px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.interest ul{
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 40px;
+}

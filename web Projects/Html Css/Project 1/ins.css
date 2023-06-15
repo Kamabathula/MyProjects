@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    background-color:cornsilk;
+    min-height: 100vh;
+}
+.content {
+    background-color:skyblue;
+    color: black;
+    text-align: start;
+    
+}
+.link{
+    text-align: end;
+    margin-right: 20px;
+    gap: 40;
+
+}
+.matter{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.last{
+    text-align: center;
+    background-color: skyblue;
+    margin-top: 20px;
+}
+.stu{
+    font-size:larger;
+   text-align: center;
+   margin-top: 20px;
+}
